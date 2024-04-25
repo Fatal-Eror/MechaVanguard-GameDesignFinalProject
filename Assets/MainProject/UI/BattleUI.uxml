@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Back" style="flex-grow: 1;">
+        <ui:VisualElement name="Top" style="flex-grow: 1; flex-direction: row; height: 10%;">
+            <ui:VisualElement style="flex-grow: 1; width: 32.5%;" />
+            <ui:VisualElement name="TopMid" style="flex-grow: 1; flex-direction: row; width: 35%;">
+                <ui:VisualElement name="TMLeft" style="flex-grow: 1; width: 25%; background-color: rgba(95, 148, 195, 0.63); border-bottom-left-radius: 50px; margin-bottom: 30px; border-left-color: rgb(144, 193, 204); border-right-color: rgb(144, 193, 204); border-top-color: rgb(144, 193, 204); border-bottom-color: rgb(144, 193, 204); border-top-width: 0; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; -unity-background-image-tint-color: rgb(0, 0, 0); border-bottom-right-radius: 10px;" />
+                <ui:VisualElement name="TMMid" style="flex-grow: 1; width: 50%; background-color: rgba(120, 119, 108, 0); border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; border-top-width: 0; border-right-width: 0; border-bottom-width: 8px; border-left-width: 0; border-left-color: rgb(231, 231, 231); border-right-color: rgb(231, 231, 231); border-top-color: rgb(231, 231, 231); border-bottom-color: rgb(231, 231, 231); margin-bottom: 10px;">
+                    <ui:Label tabindex="-1" text="5:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Timer" style="font-size: 55px; color: rgb(255, 255, 255); -unity-font-style: bold; -unity-text-align: upper-center; -unity-text-outline-color: rgb(255, 255, 255); -unity-text-outline-width: 3px; text-shadow: 0 0 5px rgb(255, 255, 255); -unity-paragraph-spacing: 0; letter-spacing: 10px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="TMLeft" style="flex-grow: 1; width: 25%; background-color: rgba(207, 99, 93, 0.63); border-bottom-left-radius: 0; margin-bottom: 30px; border-left-color: rgb(229, 129, 109); border-right-color: rgb(229, 129, 109); border-top-color: rgb(229, 129, 109); border-bottom-color: rgb(229, 129, 109); border-top-width: 0; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; -unity-background-image-tint-color: rgb(0, 0, 0); border-bottom-right-radius: 50px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; width: 32.5%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Mid" style="flex-grow: 1; height: 80%; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);" />
+        <ui:VisualElement name="Down" style="flex-grow: 1; height: 10%; flex-direction: row;">
+            <ui:VisualElement style="flex-grow: 1; width: 30%; flex-direction: column; justify-content: flex-start; align-items: flex-start; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                <ui:Label tabindex="-1" text="Player Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" style="font-size: 30px; color: rgb(255, 255, 255);" />
+                <ui:ProgressBar value="22" name="HP" high-value="200" style="width: 70%;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; width: 70%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

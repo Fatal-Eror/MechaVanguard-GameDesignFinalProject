@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Background" style="flex-grow: 1;">
+        <ui:VisualElement name="Top" style="flex-grow: 1; flex-direction: row; height: 49%;">
+            <ui:VisualElement name="TopLeft" style="flex-grow: 1; height: auto; width: 49%;" />
+            <ui:VisualElement name="TopMiddle" style="flex-grow: 1; width: 2%; flex-direction: column; justify-content: flex-end; align-items: stretch;">
+                <ui:VisualElement name="TopCrosshair" style="flex-grow: 0; align-self: auto; background-image: url(&apos;project://database/Assets/MainProject/Art/UI/Crosshair_Verticle.png?fileID=2800000&amp;guid=e299d7411d37c2643a16f55ef6a1ee2f&amp;type=3#Crosshair_Verticle&apos;); height: 40px; align-items: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="TopRight" style="flex-grow: 1; width: 49%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Middle" style="flex-grow: 1; height: 4%; flex-direction: row;">
+            <ui:VisualElement name="TopLeft" style="flex-grow: 1; height: auto; width: 48.5%; flex-direction: row-reverse;">
+                <ui:VisualElement name="LeftCrosshair" style="flex-grow: 0; width: 40px; background-image: url(&apos;project://database/Assets/MainProject/Art/UI/Crosshair_Horizontal.png?fileID=2800000&amp;guid=d260868b0678d184c89d73b4ea2702c8&amp;type=3#Crosshair_Horizontal&apos;); height: auto;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="TopMiddle" style="flex-grow: 1; width: 2%;" />
+            <ui:VisualElement name="TopRight" style="flex-grow: 1; width: 48.5%; flex-direction: row;">
+                <ui:VisualElement name="RightCrosshair" style="flex-grow: 0; width: 40px; background-image: url(&apos;project://database/Assets/MainProject/Art/UI/Crosshair_Horizontal.png?fileID=2800000&amp;guid=d260868b0678d184c89d73b4ea2702c8&amp;type=3#Crosshair_Horizontal&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Bottom" style="flex-grow: 1; height: 49%; flex-direction: row;">
+            <ui:VisualElement name="TopLeft" style="flex-grow: 1; height: auto; width: 49%;" />
+            <ui:VisualElement name="TopMiddle" style="flex-grow: 1; width: 2%;">
+                <ui:VisualElement name="BottomCrosshair" style="flex-grow: 0; align-self: auto; background-image: url(&apos;project://database/Assets/MainProject/Art/UI/Crosshair_Verticle.png?fileID=2800000&amp;guid=e299d7411d37c2643a16f55ef6a1ee2f&amp;type=3#Crosshair_Verticle&apos;); height: 40px; align-items: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="TopRight" style="flex-grow: 1; width: 49%; flex-direction: row-reverse; align-items: flex-end;">
+                <ui:Label tabindex="-1" text="30 / 30 / 600" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BulletsInfo" style="margin-bottom: 32px; margin-right: 32px; font-size: 60px; color: rgb(255, 255, 255); -unity-text-outline-color: rgb(255, 255, 255); -unity-text-outline-width: 3px; text-shadow: 0 0 5px rgb(255, 255, 255);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
